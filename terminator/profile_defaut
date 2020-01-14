@@ -1,0 +1,10 @@
+[profiles]
+  [[default]]
+    background_color = "#1c1d21"
+    cursor_color = "#f8793e"
+    font = Inconsolata for Powerline Medium 12
+    foreground_color = "#cbcdd2"
+    palette = "#2e3436:#cc0000:#4e9a06:#c4a000:#3465a4:#75507b:#06989a:#d3d7cf:#555753:#f53758:#6ebc6d:#eacd68:#36b5d5:#f8793e:#34e2e2:#eeeeec"
+    scrollbar_position = hidden
+    use_system_font = False
+
