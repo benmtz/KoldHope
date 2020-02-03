@@ -1,0 +1,92 @@
+{
+  "name": "KoldHope",
+  "dark": true,
+  "author": "Ben MERTZ",
+  "editorScheme": "/kold-hope.xml",
+  "colors": {
+    "basicBackground": "#1C1D21",
+    "darkerBackground": "#1B1C20",
+    "pitchBlack": "#050515",
+    "textColor": "#cbcdd2"
+  },
+  "ui": {
+    "*": {
+      "background": "basicBackground",
+      "foreground": "#cbcdd2",
+      "selectionBackground": "pitchBlack",
+      "selectionForeground": "textColor",
+      "selectionInactiveBackground": "basicBackground",
+      "selectionBackgroundInactive": "basicBackground",
+      "focusColor": "basicBackground"
+    },
+    "Label": {
+      "foreground": "#cbcdd2",
+      "background": "basicBackground"
+    },
+    "Borders.color": "#0F121F",
+    "Borders.ContrastBorderColor": "#0F121F",
+    "Panel.background": "basicBackground",
+    "Window": {
+      "border": "4,4,4,4,1C1D21"
+    },
+    "EditorTabs": {
+      "background": "basicBackground",
+      "underlinedTabBackground": "basicBackground",
+      "underlineColor": "#4e9a06",
+      "hoverBackground": "pitchBlack",
+      "inactiveColoredFileBackground": "#990000"
+    },
+    "EditorPane": {"inactiveBackground": "#1a0225"},
+    "Tree": {
+      "selectionBackground": "pitchBlack",
+      "selectionInactiveBackground": "basicBackground"
+    },
+    "PopupMenu.translucentBackground": "#37256d",
+    "ToolWindow": {
+      "Header": {
+        "inactiveBackground": "darkerBackground"
+      },
+      "HeaderTab": {
+        "hoverBackground": "pitchBlack",
+        "hoverInactiveBackground": "#414157ff"
+      },
+      "Button": {
+        "hoverBackground": "pitchBlack",
+        "selectedBackground": "pitchBlack",
+        "selectedForeground": "textColor"
+      }
+    }
+  },
+  "icons": {
+    "ColorPalette": {
+      "Actions.Blue": "#3465a4",
+      "Actions.Red": "#cc0000",
+      "Actions.Yellow": "#FFEEAD",
+      "Actions.Grey": "#354E5A",
+      "Objects.Blue": "#5BC0DE",
+      "Objects.Red": "#D9534F",
+      "Objects.Yellow": "#c4a000",
+      "Objects.Purple": "#75507b",
+      "Objects.Pink": "#d3d7cf",
+      "Objects.Grey": "#4694AE",
+      "Objects.BlackText": "#2e3436",
+      "#59A869": "#00C5C0FF",
+      "#2e3436":"#2e3436",
+      "#cc0000": "#cc0000",
+      "#4e9a06":"#4e9a06",
+      "#c4a000":"#c4a000",
+      "#3465a4":"#3465a4",
+      "#75507b":"#75507b",
+      "#06989a":"#06989a",
+      "#d3d7cf":"#d3d7cf",
+      "#555753":"#555753",
+      "#f53758":"#f53758",
+      "#6ebc6d":"#6ebc6d",
+      "#eacd68":"#eacd68",
+      "#36b5d5":"#36b5d5",
+      "#f8793e":"#f8793e",
+      "#34e2e2":"#34e2e2",
+      "#eeeeec":"#eeeeec"
+    }
+  }
+}

@@ -1,0 +1,18 @@
+{% extends "base.njk" %}
+{% block content %}
+<h1>App</h1>
+<div class="layout">
+    <div class="picker">
+    {% for item in colorMap %}
+        <h2>{{ item.file }}</h2>
+        {% for color in item.colors %}
+            <div class="color-tile" style="background-color:{{ color }}">{{ color }}</div>
+        {% endfor %}
+    {% endfor %}
+    </div>
+    <div class="context">
+
+    </div>
+</div>
+
+{% endblock %}

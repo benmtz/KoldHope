@@ -1,0 +1,33 @@
+<idea-plugin>
+  <id>fr.wben.themes.KoldHope</id>
+  <name>KoldHope Theme</name>
+  <version>0.1</version>
+  <vendor email="ben.mertz.dev@gmail.com" url="https://blog.jetbrains.com/platform/">Ben MERTZ</vendor>
+
+  <description><![CDATA[
+      KoldHope theme
+    ]]></description>
+
+  <change-notes><![CDATA[
+      <ul>
+      <li>0.1   Initial release. Basic theme functionality.</li>
+      </ul>
+    ]]></change-notes>
+
+  <!-- please see http://www.jetbrains.org/intellij/sdk/docs/basics/getting_started/build_number_ranges.html for description -->
+  <idea-version since-build="191"/>
+
+  <!-- Product and plugin compatibility requirements -->
+  <depends>com.intellij.modules.platform</depends>
+
+  <extensions defaultExtensionNs="com.intellij">
+    <!-- Add your extensions here -->
+    <themeProvider id="eb9b7461-397b-4b98-a422-224fc0a74564" path="/theme_basics.theme.json"/>
+      <themeProvider id="ec17bd0f-bf57-4235-afc0-36a1ecc664f6" path="/null"/>
+  </extensions>
+
+  <actions>
+    <!-- Add your actions here -->
+  </actions>
+
+</idea-plugin>
